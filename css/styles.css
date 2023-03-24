@@ -63,7 +63,12 @@ body {
 .header {
 padding-top: 24px;
 }
+.header-container {
+    display: flex;
+    align-items: center;
+}
 .logo {
+    margin-right: 76px;
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -74,6 +79,16 @@ padding-top: 24px;
 }
 .logo-part {
     color: var(--secondary-text-color);
+}
+
+.header-list {
+    display: flex;
+    gap: 40px;
+}
+.header-nav {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
 }
 .nav-link {
     font-weight: 500;
@@ -99,6 +114,10 @@ padding-top: 24px;
 .address-list {
     font-style: normal;
 }
+.contact-list {
+    display: flex;
+    gap: 40px;
+}
 
 /* Hero */
 .hero-section {
@@ -108,7 +127,10 @@ padding-top: 24px;
     text-align: center;
 }
 .hero-title {
+    max-width: 496px;
     margin-bottom: 48px;
+    margin-left: auto;
+    margin-right: auto;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -116,7 +138,8 @@ padding-top: 24px;
     color: #FFFFFF;
 }
 .hero-btn {
-    padding: 16px 32px;
+    min-width: 169px;
+    height: 56px;
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
