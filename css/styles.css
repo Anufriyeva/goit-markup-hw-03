@@ -62,6 +62,8 @@ body {
 
 .header {
 padding-top: 24px;
+padding-bottom: 24px;
+border-bottom: 1px solid #E7E9FC;
 }
 .header-container {
     display: flex;
@@ -160,7 +162,14 @@ padding-top: 24px;
 
 /* benefits section */
 
+
+.benefits-list {
+    display: flex;
+    gap: 24px;
+}
+
 .section-title {
+    margin-bottom: 72px;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
@@ -168,12 +177,18 @@ padding-top: 24px;
     text-transform: capitalize;
     color: var(--secondary-text-color);
 }
+
+.benefits-item {
+    width: 264px;
+}
+
 .list-title {
     font-weight: 500;
     font-size: 20px;
     line-height: calc(24 / 20);
     letter-spacing: 0.02em;
     color: var(--secondary-text-color);
+    margin-bottom: 8px;
 }
 .list-text {
 line-height: calc(24 / 16);
@@ -184,23 +199,43 @@ letter-spacing: 0.02em;
 .works {
     padding-bottom: 120px;
 }
+.works-list {
+    display: flex;
+    gap: 24px;
+}
+.works-item {
+    width: calc((100% - 48px) / 3);
+}
+
 
 /* Our Team section */
 .team-section {
     background-color: var(--background-alternate-color);
 }
+.team-list {
+    display: flex;
+    gap: 24px;
+}
+.team-pic {
+    margin-bottom: 32px;
+}
 .team-title {
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: calc(24 / 20);
     letter-spacing: 0.02em;
+    text-align: center;
     color: var(--secondary-text-color);
 }
 .team-text {
+    margin-bottom: 32px;
     line-height: calc(24 / 16);
     letter-spacing: 0.02em;
+    text-align: center;
 }
 .team-item {
+    width: calc((100% - 72px) / 4);
     background-color: var(--background-main-color);
 }
 
@@ -240,6 +275,12 @@ letter-spacing: 0.02em;
 /* Footer */
 .footer-section {
     background-color: var(--background-accent-color);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 156px;
+}
+.footer-container{
+    width: 264px;
 }
 .footer-logo {
     font-family: 'Raleway', sans-serif;
@@ -254,6 +295,7 @@ letter-spacing: 0.02em;
     color: var(--alternate-text-color);
 }
 .footer-text {
+    margin-top: 16px;
     line-height: calc(24 / 16);
     letter-spacing: 0.02em;
     color: var(--alternate-text-color);
