@@ -49,7 +49,8 @@ body {
     width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .section {
@@ -215,11 +216,10 @@ letter-spacing: 0.02em;
     display: flex;
     gap: 24px;
 }
-.team-pic {
-    margin-bottom: 32px;
+.team-content {
+    padding: 32px 16px;
 }
 .team-title {
-    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: calc(24 / 20);
@@ -228,7 +228,6 @@ letter-spacing: 0.02em;
     color: var(--secondary-text-color);
 }
 .team-text {
-    margin-bottom: 32px;
     line-height: calc(24 / 16);
     letter-spacing: 0.02em;
     text-align: center;
@@ -236,6 +235,8 @@ letter-spacing: 0.02em;
 .team-item {
     width: calc((100% - 72px) / 4);
     background-color: var(--background-main-color);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
 }
 
 /* Portfolio */
@@ -282,8 +283,8 @@ letter-spacing: 0.02em;
 }
 .portfolio-content {
     padding: 32px 0 32px 16px;
-    border-top: none;
     border: 1px solid #E7E9FC;  
+    border-top: none;
 }
 .portfolio-title {
     margin-bottom: 8px;
@@ -304,9 +305,8 @@ letter-spacing: 0.02em;
     background-color: var(--background-accent-color);
     padding-top: 100px;
     padding-bottom: 100px;
-    padding-left: 156px;
 }
-.footer-container{
+.footer-content {
     width: 264px;
 }
 .footer-logo {
