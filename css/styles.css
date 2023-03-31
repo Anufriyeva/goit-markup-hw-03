@@ -226,6 +226,7 @@ letter-spacing: 0.02em;
     letter-spacing: 0.02em;
     text-align: center;
     color: var(--secondary-text-color);
+    margin-bottom: 8px;
 }
 .team-text {
     line-height: calc(24 / 16);
